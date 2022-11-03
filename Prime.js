@@ -1,3 +1,4 @@
+
 function chkPrime(number)
  {
 let factors = 0
@@ -20,4 +21,3 @@ if(answer==true)
 }else
 {
 cosole.log("Not a prime")
-}
