@@ -1,18 +1,23 @@
-function chkPrime(num){
-   let count=0;
-	for(let i=0 ;i<=num; i++){
-	if(num%i ==0){
-		count++;
-	}
+
+function chkPrime(number)
+ {
+let factors = 0
+   for(let i=1 ;i<=number; i++)
+      {
+	if(number%i ==0)
+	 {
+	    factors++;;
+	}	
+	if(factors==2)
+	{
+	return true;
 }
-if(count==0){
-	    return true;
-	}
-	return false;
-} 
-let ans= checkprime(15);
-if(ans == true){
-   console.log("Prime")
-}else{
-   console.log("Not Prime")
-}
+} return false;
+
+let answer==chkPrime(13)
+if(answer==true)
+{
+ console.log("Prime number")
+}else
+{
+cosole.log("Not a prime")
